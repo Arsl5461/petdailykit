@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #031A6B;
+    height: 50px;
+}
+.prenav{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: end;
+    padding-top: 10px;
+}
+.prenav-list{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    align-items: center;
+}
+.prenav-list li {
+    list-style-type: none;
+}

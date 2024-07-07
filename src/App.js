@@ -1,9 +1,10 @@
-
+import Prenav from "./components/Prenav";
+import "./index.css"
 
 function App() {
   return (
     <>
-    <h1>Arslan AKmal</h1>
+    <Prenav/>
     </>
   );
 }
